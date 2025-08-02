@@ -6,13 +6,13 @@ class B:
     def display(self):
         print("Class B")
 
-class C(A, B):  # Inherits from both A and B
+class C(A, B):  
     def extra(self):
         print("Class C")
 
 obj = C()
-obj.show()     # From class A
-obj.display()  # From class B
+obj.show()     
+obj.display()  
 obj.extra()
 
 
